@@ -1,0 +1,29 @@
+/* Reset some default browser styles */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Set the map, body, and html to fill the entire viewport height */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style the legend */
+.info.legend {
+  position: topright; /* Position the legend in the top-right corner */
+  background: rgb(245, 218, 218); /* Legend background color */
+  padding: 10px; /* Padding around the legend */
+  border: 1px solid #969090; /* Legend border */
+  font-size: 10px; /* Legend font size */
+}
+
+/* Style legend labels */
+.info.legend i {
+  width: 15px; /* Width of the color swatch */
+  height: 15px; /* Height of the color swatch */
+  margin-right: 8px; /* Spacing between color swatch and text */
+  display: inline-block;
+}
